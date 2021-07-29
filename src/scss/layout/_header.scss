@@ -4,3 +4,33 @@
   background-position: top center;
   background-size: cover;
 }
+.menu-image {
+  background-color: #0271bc;
+  height: 44px;
+  width: 44px;
+  display: flex;
+  align-items: center;
+  margin: 0 94px 240px 0;
+}
+.menu-image2 {
+  background-color: #0271bc;
+  height: 14px;
+  width: 14px;
+  display: flex;
+  align-items: center;
+}
+.title {
+  font-family: "Roboto Slab", serif;
+  font-size: 42px;
+  display: flex;
+  text-align: center;
+  color: white;
+  width: 290px;
+  height: 110px;
+  text-transform: uppercase;
+  margin: 284px 15px 174px 15px;
+}
+.subtitle {
+  color: white;
+  margin: 404px 15px 143px 15px;
+}
