@@ -1,7 +1,49 @@
+.footer {
+  width: 100%;
+  height: 465px;
+  background-color: #304268;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.arrow-item {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  margin-bottom: 37px;
+}
+.links {
+  width: 73px;
+  height: 150px;
+  color: white;
+  line-height: 30px;
 
-
-
-
-
-
-
+  font-size: 16px;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.social-media-links {
+  width: 147px;
+  height: 90px;
+  line-height: 30px;
+  font-size: 16px;
+}
+.media {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.copyright {
+  color: white;
+  margin-top: 30px;
+}
+.info {
+  color: white;
+  margin-bottom: 45px;
+}

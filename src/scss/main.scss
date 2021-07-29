@@ -4,3 +4,6 @@
 @import "layout/container_1";
 @import "layout/container_2";
 @import "layout/footer";
+* {
+  overflow-x: hidden;
+}

@@ -1,6 +1,6 @@
 .container_1 {
-  width: 320px;
-  height: 376px;
+  width: 100%;
+  height: 420px;
 }
 .insomnia {
   padding: 30px 215px 1px 15px;
@@ -12,7 +12,7 @@
   margin: 0;
 }
 .title-1 {
-  padding: 1px 15px 15px 15px;
+  padding: 0px 15px 15px 15px;
   margin: 0;
   font-size: 24px;
   font-family: "Roboto Slab", serif;
@@ -22,9 +22,13 @@
 }
 .text-container-1 {
   color: #4a4a4a;
-  padding: 15px 15px 30px 15px;
+  padding: 0px 15px 30px 15px;
   font-size: 18px;
   line-height: 30px;
+  font-family: "Roboto Slab", serif;
+  text-transform: capitalize;
+  text-align: left;
+  margin-right: 15px;
 }
 .go {
   margin-left: 15px;
@@ -33,6 +37,7 @@
   height: 45px;
   border-color: #f26002;
   border: solid 2px #f26002;
+  margin-bottom: 45px;
 }
 .text-go {
   font-size: 20px;
