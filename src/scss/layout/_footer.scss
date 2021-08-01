@@ -8,6 +8,16 @@
   align-items: center;
   flex-direction: column;
   box-sizing: border-box;
+  @media all and (min-width: 768px) {
+    height: 240px;
+    flex-direction: row-reverse;
+    align-items: unset;
+  }
+}
+.copy.info {
+  @media all and (min-width: 768px) {
+    flex-direction: column;
+  }
 }
 .arrow-item {
   width: 45px;
@@ -43,8 +53,18 @@
 .copyright {
   color: white;
   margin-top: 30px;
+  @media all and (min-width: 768) {
+    margin-top: 0px;
+    width: 150px;
+    height: 50px;
+  }
 }
 .info {
   color: white;
   margin-bottom: 45px;
+  @media all and (min-width: 768) {
+    margin-top: 0px;
+    width: 150px;
+    height: 50px;
+  }
 }
