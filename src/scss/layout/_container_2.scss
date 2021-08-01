@@ -67,6 +67,10 @@
   background-color: #f26002;
   display: flex;
   align-items: center;
+  transition: color ease 1s;
+  &:hover {
+    color: blue;
+  }
 
   @media all and (min-width: 768px) {
     margin-left: 290px;

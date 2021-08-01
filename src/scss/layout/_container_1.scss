@@ -75,6 +75,10 @@
   border-color: #f26002;
   border: solid 2px #f26002;
   margin-bottom: 45px;
+  transition: color ease 1s;
+  &:hover {
+    background-color: burlywood;
+  }
   @media all and (min-width: 768px) {
     width: 91px;
     height: 45px;
